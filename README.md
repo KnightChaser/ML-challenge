@@ -1,5 +1,5 @@
-# deep-learning-challenge
-
+# ML-challenge
+> Machine Learning Challenge
 - - - 
 <img src="https://img.shields.io/github/languages/code-size/x3onkait/ML-challenge">
 
