@@ -1,7 +1,15 @@
 # ML-challenge
 > Machine Learning Challenge
 - - - 
-<img src="https://img.shields.io/github/languages/code-size/x3onkait/ML-challenge">
+<span>
+  <img src="https://img.shields.io/github/languages/code-size/x3onkait/ML-challenge">
+  <img src="https://img.shields.io/github/repo-size/x3onkait/ML-challenge">
+  <img src="https://img.shields.io/github/directory-file-count/x3onkait/ML-challenge">
+</span>
+
+
+<br>
+<br>
 
 > This repository has been synchronized with my private Google drive containing the codes.
 
