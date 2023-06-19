@@ -5,12 +5,6 @@
 ### In WSL2, Ubuntu
 ### It's (highly) recommended to run commands one-by-one, not copying and pasting a bunch of commands that would generate some errors like "unexpected data stream while unpacking the following packages...".
 
-# To faster update, append this to /etc/apt/source.list
-deb mirror://mirrors.ubuntu.com/mirrors.txt precise main restricted universe multiverse
-deb mirror://mirrors.ubuntu.com/mirrors.txt precise-updates main restricted universe multiverse
-deb mirror://mirrors.ubuntu.com/mirrors.txt precise-backports main restricted universe multiverse
-deb mirror://mirrors.ubuntu.com/mirrors.txt precise-security main restricted universe multiverse
-
 # apt update and install CUDA
 # Refer to the official CUDA installation webpage: https://developer.nvidia.com/cuda-toolkit-archive to get a bunch of the newest command sets.
 
@@ -48,6 +42,7 @@ sudo apt-get install docker.io
 
 # If you need NVIDIA CUDA Toolkit, don't forget to install the tool too.
 # Ref. https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html#setting-up-nvidia-container-toolkit
+# DO NOT USE THE "APT-KEY" COMMAND, IT'S DEPRECATED DUE TO THE SECURITY CONCERNS!
 distribution=$(. /etc/os-release;echo $ID$VERSION_ID) \
       && curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey | sudo gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg \
       && curl -s -L https://nvidia.github.io/libnvidia-container/$distribution/libnvidia-container.list | \
