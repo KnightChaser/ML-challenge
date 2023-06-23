@@ -16,3 +16,5 @@
 
 My small and cute repository that stores the vestiges of my study for ML(Machine Learning) with Python.
 Will I eventually finish the entry level learning of ML?
+
+**This repository contains various files related to ML(Machine Learning), DL(Deep Learning), ML/DL-related experiments, and ML/DL-environment setup configurations.**
